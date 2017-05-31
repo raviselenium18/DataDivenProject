@@ -23,7 +23,7 @@ public class AddCustomerTest extends TestBase {
 		
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		
-		Assert.assertTrue(alert.getText().contains(alerttext),"Customer not added successfully");
+		Assert.assertTrue(alert.getText().contains(alerttext),"Customer not added successfully..");
 		
 		alert.accept();
 		
