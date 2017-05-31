@@ -15,7 +15,7 @@ public class BankManagerLoginTest extends TestBase {
 		
 		
 		click("bmlBtn");
-		Assert.assertTrue(isElementPresent(OR.getProperty("addCustBtn")),"Login not successful");
+		Assert.assertTrue(isElementPresent(OR.getProperty("addCustBtn")),"Login not successful...");
 		Thread.sleep(3000);
 	}
 	

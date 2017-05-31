@@ -29,7 +29,7 @@ public class AddCustomerTest extends TestBase {
 		
 		Thread.sleep(3000);
 		
-		Assert.fail("Failing add customer test");
+		Assert.fail("Failing add customer test...");
 		
 	}
 	
