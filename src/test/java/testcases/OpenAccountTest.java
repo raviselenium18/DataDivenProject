@@ -21,7 +21,7 @@ public class OpenAccountTest extends TestBase {
 
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
-		Assert.assertTrue(alert.getText().contains(alerttext), "Account created successfully!!");
+		Assert.assertTrue(alert.getText().contains(alerttext), "Hello, Account created successfully!!");
 
 		alert.accept();
 
